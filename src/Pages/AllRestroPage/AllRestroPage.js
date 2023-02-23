@@ -22,7 +22,7 @@ export default function AllRestroPages() {
           <div className={style.card} key={i}>
             <img
               className={style.img}
-              width="290px"
+              width="400px"
               src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${x.data.cloudinaryImageId}`}
               alt="hotel_picture"
             />
